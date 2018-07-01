@@ -27,10 +27,11 @@
 .right-side{
     background-image: url("women-hero.png");
 }
-
+/*
 .left-side{
     background-image: url("women-hero1.png");
-}
+}*/
+
 .signup-form, .headers{
     text-align: center;
 }

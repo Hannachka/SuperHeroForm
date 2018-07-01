@@ -1,0 +1,58 @@
+.headers {grid-area: headers; }
+.left-side {grid-area: left-side; }
+.signup-form {grid-area: form-question; }
+.right-side {grid-area: right-side; }
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'left-side headers right-side'
+    'left-side form-question right-side';
+    grid-gap: 10px;
+    background-image: url("women-hero.png"), url("purple_background.jpg");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: contain, cover;
+    padding: 10px;
+    font-family: "sans-serif", Verdana, 'Trebuchet MS';
+}
+
+.signup-form, .headers{
+    text-align: center;
+}
+
+.signup-form{
+    padding: 0em 10em;
+}
+
+.headers{
+    padding: 2px;
+}
+
+.header1{
+    font-size: 30px;
+    margin: 4px;
+}
+
+.header2{
+    font-size: 25px;
+    margin: 4px;
+}
+
+.signup-heading{
+    background-color: #660066;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0em;
+}
+
+.powers{
+    margin: 5px;
+    padding: 5px;
+}
+
+.signup-body{
+    padding: 5px;
+    margin: 5px;
+}
